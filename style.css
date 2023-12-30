@@ -510,29 +510,35 @@ span {
     }
 }
 
-@media only screen and (max-width: 366px) {
+@media only screen and (max-width: 371px) {
     .footer-text p {
         font-size: 0.5rem;
     }
 
     .portfolio-layer h4 {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .portfolio-layer p {
-        font-size: 0.7rem;
-        margin: .07rem 0 .2rem;
+        font-size: 0.6rem;
+        margin: .07rem 0 .15rem;
     }
 
     .portfolio-layer a {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1.2rem;
+        height: 1.2rem;
     }
 
     .portfolio-layer a i {
         font-size: 0.7rem;
 
     }
+
+    .contact h2 {
+        font-size: 1.8rem;
+    }
+
+}
 
     .contact h2 {
         font-size: 2.55rem;
