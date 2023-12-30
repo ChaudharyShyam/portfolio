@@ -510,7 +510,7 @@ span {
     }
 }
 
-@media only screen and (max-width: 371px) {
+@media only screen and (max-width: 438px) {
     .footer-text p {
         font-size: 0.5rem;
     }
