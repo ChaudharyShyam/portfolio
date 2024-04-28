@@ -257,6 +257,7 @@ span {
 
 .portfolio-box img {
     width: 100%;
+    height: 400px;
     transition: 0.5s ease;
 }
 
@@ -543,5 +544,3 @@ span {
     .contact h2 {
         font-size: 2.55rem;
     }
-
-}
