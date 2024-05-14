@@ -17,6 +17,7 @@
     --main-color: #0ef; */
     --second-bg-color: #070707;
     --text-color: #ffffff;
+    --white: #ffffff;
     --main-color: rgb(0, 55, 255);
 }
 
@@ -184,6 +185,62 @@ span {
     margin: 1.7rem 0rem 1.5rem;
 
 }
+
+
+
+
+/*-----------------------------------*\
+  #SKILLS
+\*-----------------------------------*/
+
+.skills .section-title { margin-block-end: 20px; }
+
+.skills .section-text { margin-block-end: 70px; }
+
+.skills {
+    background: linear-gradient(130deg, rgb(76, 68, 149), rgb(28, 26, 46), rgb(65, 58, 126));
+
+}
+
+.skills-list {
+  display: grid;
+  gap: 25px;
+}
+
+.skills-item .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 10px;
+}
+
+.skills-title,
+.skills-data {
+  color: var(--white);
+  font-size: var(--fs-5);
+  font-family: var(--ff-barlow);
+  font-weight: var(--fw-600);
+}
+
+.skills-progress-box {
+  background-color: var(--white);
+  height: 8px;
+  border-radius: var(--radius-10);
+}
+
+.skills-progress {
+  background-color: var(--main-color);
+  height: 100%;
+  border-radius: inherit;
+}
+
+
+
+
+
+
+
+
 
 /* services */
 
@@ -454,6 +511,23 @@ span {
     }
 
 }
+
+
+
+@media (min-width: 768px) {
+  
+  
+    /**
+     * SKILLS, BLOG
+     */
+  
+    .skills-list,
+    .blog-list {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 50px;
+    }
+  
+  }
 
 /* Responsive styles for mobile phones */
 @media only screen and (max-width: 480px) {
